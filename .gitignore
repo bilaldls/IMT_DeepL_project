@@ -1,0 +1,73 @@
+# ===========================
+# ENVIRONNEMENT VIRTUEL
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# PYTHON
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+*.whl
+
+# ===========================
+# NOTEBOOKS
+# ===========================
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# ===========================
+# LOGS / TEMP
+# ===========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+
+# ===========================
+# VISUAL STUDIO CODE
+# ===========================
+.vscode/
+.history/
+
+# ===========================
+# TESTS
+# ===========================
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===========================
+# DATASETS / SORTIES
+# (mets ici tous les dossiers que tu génères)
+# ===========================
+data/
+outputs/
+cache/
+models/
+checkpoints/
+runs/
+
+# ===========================
+# AUTRES FICHIERS À IGNORER
+# ===========================
+*.sqlite
+*.db
+*.h5
+*.hdf5
